@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Autocomplete from "./autocomplete";
+import Table from "./table";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
+        <Autocomplete onSelectItem={(item)=>{alert('Selected: '+item)}}/>
+        <Table></Table>
     </div>
   );
 }
