@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300");
 
 .prior-div .table-resp{
@@ -28,6 +29,17 @@
 
     .prior-div .table-resp tbody tr th:last-child{
         border-bottom: 2px solid ghostwhite;
+=======
+@media only screen and (max-width: 768px) {
+
+    .prior-div .table-resp {
+        border: 0;
+        border-collapse: collapse;
+    }
+
+    .prior-div .table-resp, .prior-div .table-resp thead, .prior-div .table-resp tbody, .prior-div .table-resp th, .prior-div .table-resp td, .prior-div .table-resp tr {
+        display: block;
+>>>>>>> edfab76722315bcfc66bf3ad71acf102daaa6dc2
     }
 
     .prior-div .table-resp thead tr {
@@ -41,14 +53,41 @@
         margin: 0 0 15px 0;
         display: flex;
         flex-flow: column;
+<<<<<<< HEAD
     }
 
     .prior-div .table-resp tr td {
+=======
+        border: 1px solid #638cad;
+        border-bottom: 0;
+    }
+
+    .prior-div .table-resp tbody tr:nth-child(odd) { }
+
+    .prior-div .table-resp tbody tr:nth-child(even) { }
+
+    .prior-div .table-resp tr td {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #638cad;
+>>>>>>> edfab76722315bcfc66bf3ad71acf102daaa6dc2
         position: relative;
         padding-left: 40%;
         word-wrap: break-word;
     }
 
+<<<<<<< HEAD
+=======
+    .prior-div .table-resp tr td:last-child {
+        border-bottom: none;
+    }
+
+    ​.prior-div .table-resp tr td:first-child {
+        border-top: 1px solid #638cad;
+    }
+
+>>>>>>> edfab76722315bcfc66bf3ad71acf102daaa6dc2
     .prior-div .table-resp td:before {
         position: absolute;
         top: 6px;
@@ -60,6 +99,7 @@
         text-align: left;
     }
 }
+<<<<<<< HEAD
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -172,3 +212,5 @@ h1 {
     background: #269CE9;
     color: #93D5FF;
 }
+=======
+>>>>>>> edfab76722315bcfc66bf3ad71acf102daaa6dc2

@@ -19,6 +19,8 @@ function App() {
         <Autocomplete onSelectItem={(item)=>{alert('Selected: '+item)}}/>
         <Table></Table>
       </header>
+        <Autocomplete onSelectItem={(item)=>{alert('Selected: '+item)}}/>
+        <Table></Table>
     </div>
   );
 }
